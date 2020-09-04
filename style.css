@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./img//baby_reign.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #546E7A;
+    font-weight: 600;
+}
+
+.big-text {
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    color: #FFA000;
+}
+
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.countdown-element {
+    text-align: center;
+}
+
+.countdown-element > span {
+    color: #546E7A;;
+}
